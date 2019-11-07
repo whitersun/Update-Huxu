@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>鬍鬚首頁</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../../css/styles.css" />
+    <link rel="stylesheet" href="../../css/home/home.css" />
+
+    <script defer src="https://kit.fontawesome.com/480b90f7d2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#">Brand</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="navbar-header">
+            <p class="navbar-text navbar-right">
+            <a href="#" class="navbar-link">Username</a>
+            </p>
+        </div>
+    </div>
+</nav>
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+      <div id="carousel-json" class="carousel-inner" role="listbox"></div>
+
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <h1 class="lh-18 space-1 text-center mb-3">最新消息</h1>
+        <div class="my-1 col-md-12 col-sm-12" id="new-list"></div>
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">我們的 <span class="text-muted">堅持</span></h2>
+          <p class="lead space-1 lh-20 fs-22 font-light mt-3">
+              鬍鬚蕭農場堅信著友善環境與自然農法耕作的理念，期望能達到土地生物
+              多樣性以及綠色消費的精神，想要以保護大地和生產優質水果及蔬菜為願景。          
+          </p>
+
+          <p class="lead space-1 lh-18 fs-22">讓人可以真正從大地獲得自然的美味。</p>
+          <a href="#" class="btn btn-primary fs-22">更多...</a>
+        </div>
+
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" 
+          src="../../images/Illustrator/logo.png"
+          data-src="../../images/Illustrator/logo.png" alt="Generic placeholder image">
+        </div>
+
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5 mx-auto pl-5">
+          <div id="gallery-grid-text"></div>
+        </div>
+
+        <div class="col-md-5 col-md-pull-7 view gallery" id="grid-gallery"></div>
+      </div>
+        
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">品牌<span class="text-muted">精神</span></h2>
+          <p class="lead lh-20 fs-22">
+              「鬍鬚蕭」名字的由來
+          </p>
+
+          <p class="lead lh-18 fs-22">
+              農場取名「鬍鬚蕭」，原因有二，一是非常像是蕭大哥滿臉鬍鬚渣的外貌，另
+              一方面則是為了紀念祖父母，當年一路帶著勇氣從斗六南下。鬍鬚就像是滿園植物的
+              根，它強悍地往下紮往下長，給了家人食物，延續了家族命脈，也汲取了源於土
+              壤所給予的寬容滋養和愛，希望時時提醒自己莫忘初衷，也希望藉他們的手，
+              把充滿愛的農作物，可以把這份島嶼給的滋養再散播出去。            
+            </p>
+            <a href="../about" class="space-1 lh-18 fs-22 btn btn-transparent">更多閱讀</a>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" 
+          src="../../images/48.jpg"
+          data-src="../../images/48.jpg" alt="農場主人">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette my-5">
+        <div class="media facebook fs-22">
+          <a class="mr-5" href="https://www.facebook.com/%E5%85%AD%E9%BE%9C%E9%AC%8D%E9%AC%9A%E8%95%AD%E8%BE%B2%E5%A0%B4-LiouGuei-Beard-Shoins-Farm-255485758377461/?epa=SEARCH_BOX">
+            <i class="fab fa-facebook-f"></i>
+            <span class="fs-15 lh-18 space-1">六龜鬍鬚蕭農場臉書</span>
+          </a>
+          <a href="http://www.takaobooks.tw/kaohsiung-story-info.asp?id=590">
+            <span class="fs-15 lh-18 space-1">[六龜]老蕭的秘密開心農場</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div>
+
+    <script defer src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="../../js/home.js"></script>
+</body>
+</html>

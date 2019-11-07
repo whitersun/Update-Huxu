@@ -1,0 +1,69 @@
+html, body {
+  background: #f5f6fa !important;
+}
+
+.navbar-light {
+  background-color: #f5f6fa;
+  color: #718093 !important;
+}
+
+.navbar-light .navbar-brand {
+  color: #353b48 !important;
+}
+
+.navbar-nav.ml-5 li {
+  margin: 0 1rem;
+}
+
+.navbar-nav li a:active {
+  border: 1px solid transparent;
+  background: #dcdde1;
+  color: #718093 !important;
+}
+
+.navbar-nav li a {
+  font-weight: 600;
+  font-size: 18px;
+  color: #718093 !important;
+  letter-spacing: 0.1rem;
+}
+
+.navbar-nav li a:hover {
+  color: #353b48 !important;
+}
+
+.underline {
+  border-bottom: 3px solid #273c75;
+  height: 2px;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.caption {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(transparent));
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), transparent);
+}
+
+.caption .pos-relative.top-10rem {
+  top: 10rem;
+}
+
+.swiper-pagination-bullet-active {
+  background: #f5f6fa !important;
+}
+/*# sourceMappingURL=home-newOne.css.map */
