@@ -17,7 +17,7 @@ body {
 $width: 25;
 @while $width <= 100 {
     .w-#{$width} {
-        width: $width * 1%;
+        width: $width * 1% !important;
     }
     $width: $width + 25;
 }
@@ -25,8 +25,8 @@ $width: 25;
 // height Vertical
 $height: 25;
 @while $height <= 100 {
-    .h-#{$height} {height: $height * 1vh;}
-    .h-#{$height}rem {height: $height * 1rem;}
+    .h-#{$height} {height: $height * 1vh !important;}
+    .h-#{$height}rem {height: $height * 1rem !important;}
     $height: $height + 25;
 }
 
@@ -219,3 +219,6 @@ body:lang(zh) { font-family: '微軟正黑';}
 .card-price .buy-now{ text-transform: uppercase; }
 .card-price table .price{ font-size: 1.2em; font-weight: 700; text-align: left; }
 .card-price table .note{ color: #666; font-size: 0.8em; }
+
+.no-border-radius {border-radius: 0 !important;}
+.bg-no_repeat {background-repeat: no-repeat !important;}
