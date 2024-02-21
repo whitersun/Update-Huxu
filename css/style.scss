@@ -221,8 +221,15 @@ body:lang(zh) { font-family: '微軟正黑';}
 .card-price table .note{ color: #666; font-size: 0.8em; }
 
 .no-border-radius {border-radius: 0 !important;}
-<<<<<<< HEAD
-.bg-no_repeat {background-repeat: no-repeat !important;}
-=======
-.bg-no_repeat {background-repeat: no-repeat !important;}
->>>>>>> b116b3712cd665c694900fdc395ca4863e35dad8
+
+.swiper {
+  --swiper-navigation-size: 22px;
+  --swiper-navigation-color: #3f6a2b;
+
+  .swiper-pagination {
+    position: relative;
+
+    --swiper-pagination-bottom: 0px;
+    --swiper-pagination-color: #3f6a2b;
+  }
+}

@@ -5,14 +5,14 @@ const Huxu_json = {
             description: '亮麗的生態環境，期待你的蒞臨!',
             name: '鬍鬚青蛙',
             link: '/master.html',
-            images: '../../images/LR Fix Model/images-14.jpg'
+            images: '../../images/LR_Fix_Model/images-14.jpg'
         },
         {
             headName: '在迷人的生態中，漫步欣賞蝴蝶曼妙身影',
             description: '亮麗的生態環境，期待你的蒞臨!',
             name: '鬍鬚小蝴蝶',
             link: '/master.html',
-            images: '../../images/LR Fix Model/images-4.jpg'
+            images: '../../images/LR_Fix_Model/images-4.jpg'
         }
     ],
 
@@ -21,14 +21,14 @@ const Huxu_json = {
             id: 1,
             name: '香蕉',
             description: '為高熱量水果，熱帶地區廣泛栽培食用。香蕉味香、富於營養，終年可收穫，它富含大量醣類物質及它營養成分，在某些熱帶地區可作為主要糧食。',
-            images: '../../images/LR Fix Model/images-8.jpg',
+            images: '../../images/LR_Fix_Model/images-8.jpg',
             link: '#banana'
         },
         {
             id: 2,
             name: '四季豆',
             description: '生育旺盛、蔓性，白花，綠莢，莢型端直粗圓，無筋，肉厚，莢質細嫩，不易老化。適合用來炒食、川燙',
-            images: '../../images/LR Fix Model/images-9.jpg',
+            images: '../../images/LR_Fix_Model/images-9.jpg',
             link: '#bean'
         },
         {
@@ -42,7 +42,7 @@ const Huxu_json = {
             id: 4,
             name: '水果玉米',
             description: '特點為皮薄無渣、口感細膩、質脆而甜，所含水分較高，生吃有解暑的功效。',
-            images: '../../images/LR Fix Model/images-7.jpg',
+            images: '../../images/LR_Fix_Model/images-7.jpg',
             link: '#popcrop'
         },
         {
@@ -64,30 +64,36 @@ const Huxu_json = {
     'new-list': [
         {
             id: 1,
-            title: '藏在芒果園的【山豬窩】',
-            description: '山豬一點都不笨！如同其它脊椎動物，懂得利用工具，善加就地取材，採用堆疊鑲嵌的豬豬工法，造了一個堅不可摧的豬窩，還造了一個隱秘的豬豬門，你找得到嗎？',
-            images: 'https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/71943847_511340269458674_8077216763596505088_n.jpg?_nc_cat=106&_nc_oc=AQn-Hw_LENCwgIYaR7cZiVWEiZDq-26idxiiJQoVncx5cLRVZds8QkayTHvr4eLa0DxDrgwYpEvDRaHoAIhk5WR_&_nc_ht=scontent-tpe1-1.xx&oh=1e67a1abe2e26361587d8a877aab2514&oe=5E1BBA0F',
-            link: 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D511341012791933%26id%3D255485758377461&width=500'
+            title: '鬍鬚蕭山上小番茄',
+            description: '太過份了，#鬍鬚蕭山上小番茄 侵門踏戶在美濃設攤，就在中壇 #廟口粄條 旁，#中壇郵局 斜對面,請認明這顆大番茄，別無分行！',
+            images: '../../images/news/1.jpg',
+            link: 'https://www.facebook.com/photo/?fbid=810775951062497&set=a.470337271773035'
         },
         {
             id: 2,
-            title: '「植物醫生」',
-            description: '山豬一點都不笨！如同其它脊椎動物，懂得利用工具，善加就地取材，採用堆疊鑲嵌的豬豬工法，造了一個堅不可摧的豬窩，還造了一個隱秘的豬豬門，你找得到嗎？',
-            images: 'https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/71773218_504512026808165_4766315466832478208_o.jpg?_nc_cat=107&_nc_oc=AQkV8XD7aH1ExPNBFn630uI2RpnMtZYXIYsAJ2OvZzlAsMtPhpxP15G4cNqiIqjMybJ70BzhxOcUtXZSBIOSWHKF&_nc_ht=scontent-tpe1-1.xx&oh=36f7d073cb2326c3cf1b41745815e28c&oe=5E362059',
-            link: 'https://www.facebook.com/permalink.php?story_fbid=504515506807817&id=255485758377461'
+            title: '「西施芒果」',
+            description: '8/14周一是最後一批「西施芒果」宅配日，下次宅配日是明年，想訂購的朋友手腳要快喔！',
+            images: '../../images/news/2.jpg',
+            link: 'https://www.facebook.com/photo?fbid=698667242273369&set=a.470337271773035'
         },
         {
             id: 3,
-            title: '【跑山雞夏令營】',
-            description: '今年的成員還是只有隊長跟副隊長',
-            images: 'https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/66023965_457673694825332_6113728878901985280_o.jpg?_nc_cat=111&_nc_oc=AQkFX63v3i90XKhfVfMiGOih5smoumIcnb27PIdzOth9NY3-dWDHjSKpRAibaX10MwYsWNybw0inRYOs_bE1DH1g&_nc_ht=scontent-tpe1-1.xx&oh=d0ebb54073b7a5687598300778e97d6e&oe=5E24133C',
-            link: 'https://www.facebook.com/permalink.php?story_fbid=457679268158108&id=255485758377461'
+            title: '中颱杜蘇芮',
+            description: '大自然才是老大，農夫只是僕人.',
+            images: '../../images/news/3.jpg',
+            link: 'https://www.facebook.com/photo?fbid=690225246450902&set=a.470337271773035'
         }
     ]
 };
 
-document.getElementById('carousel-json').innerHTML = `
-    <div class="item active">
+const carouselElement = document.querySelector('#carousel');
+const gridGalleryElement = document.querySelector('#grid-gallery');
+const galleryGridTextElement = document.querySelector('#gallery-grid-text');
+const newsListElement = document.querySelector('#news-list');
+
+
+function renderCarouselElement () {
+    const firstItem = `<div class="item active">
         <img class="img-responsive" src="../../images/40.jpg" alt="First slide">
         <div class="container">
             <div class="carousel-caption">
@@ -96,9 +102,9 @@ document.getElementById('carousel-json').innerHTML = `
                 <p><a class="btn btn-lg btn-primary fs-20 space-1" href="#" role="button">更多...</a></p>
             </div>
         </div>
-    </div>
+    </div>`;
 
-    ${Huxu_json['carousel-list'].map((items) => {
+    const carouselItems = Huxu_json['carousel-list'].map((items) => {
         return `
         <div class="item">
             <img class="img-responsive" src="${items.images}" alt="${items.name}">
@@ -109,49 +115,117 @@ document.getElementById('carousel-json').innerHTML = `
                     <p><a class="btn btn-lg btn-primary fs-20 space-1" href="${items.link}" role="button">更多...</a></p>
                 </div>
             </div>
-        </div>
-        `;
-    }).join('')}
-`;
+        </div>`;
+    }).join('');
 
-document.getElementById('grid-gallery').innerHTML = `
-    ${Huxu_json['gallery-grid'].map((item) => {
-        return `
+    return carouselElement.innerHTML = firstItem + carouselItems;
+}
+
+function renderGalleryElement () {
+    const galleryItems = Huxu_json['gallery-grid'].map((item) => `
         <a class="btn btn-transparent" role="button" data-toggle="collapse" href="#collapseExample${item.id}" aria-expanded="false" aria-controls="collapseExample">
             <img src="${item.images}" class="img-of__cover" width="200" height="150" alt="${item.name}" />
         </a>
-        `;
-    }).join('')}
-`;
+    `).join('');
 
-document.getElementById('gallery-grid-text').innerHTML = `
-    ${Huxu_json['gallery-grid'].map((item) => {
+    gridGalleryElement.innerHTML = galleryItems;
+}
 
-        if(item.length === 0 ) {
-            return `Please Click images`;
-        }
-        else {
-        return `
-            <div class="collapse" id="collapseExample${item.id}">
-                <div class="well">
-                    <h2 class="fs-headline">${item.name} </h2>
-                    <p class="lead space-1 lh-18 fs-22">${item.description}</p>
-                    <a href="${item.link}" class="btn btn-transparent space-1 lh-18 fs-22">更多閱讀</a>
+function renderGalleryGridText () {
+    let html = '';
+    Huxu_json['gallery-grid'].forEach((item) => {
+        if (item.length === 0 ) {
+            html += 'Please Click images';
+        } else {
+            html += `
+                <div class="collapse" id="collapseExample${item.id}">
+                    <div class="well">
+                        <h2 class="fs-headline">${item.name}</h2>
+                        <p class="lead space-1 lh-18 fs-22">${item.description}</p>
+                        <a href="${item.link}" class="btn btn-transparent space-1 lh-18 fs-22">更多閱讀</a>
+                    </div>
                 </div>
-            </div>
             `;
         }
-    }).join('')}
-`;
-document.getElementById('new-list').innerHTML = `
-    ${Huxu_json['new-list'].map((new_) => {
-        return `
-        <div class="col-lg-4">
-            <img class="img-circle" src="${new_.images}" alt="${new_.title}" width="140" height="140">
-            <h2 class="space-1 fs-32">${new_.title}</h2>
-            <p class="fs-18 lh-18 space-1">${new_.description}</p>
-            <p><a class="btn btn-default space-1 fs-18 lh-18" href="${new_.link}" role="button">更多閱讀</a></p>
-        </div>
-        `
-    }).join('')}
-`;
+    });
+    galleryGridTextElement.innerHTML = html;
+}
+
+function renderNewList() {
+    const fragment = document.createDocumentFragment();
+    
+    Huxu_json['new-list'].forEach((new_) => {
+        const div = document.createElement('div');
+        div.className = "swiper-slide";
+        
+        const view = document.createElement('div');
+        view.className = "view mb-1";
+        const img = document.createElement('img');
+        img.decoding = "async";
+        img.loading = "lazy";
+        img.className = "d-block mx-auto w-100 img-fluid";
+        img.src = new_.images;
+        img.alt = new_.title;
+        img.width = "140";
+        img.height = "140";
+        img.style.objectPosition = "center";
+        img.style.objectFit = "cover";
+        img.style.height = "340px";
+        img.style.borderRadius = "8px"
+        img.style.border = "1px solid #161616";
+
+        view.appendChild(img);
+        
+        const h2 = document.createElement('h2');
+        h2.className = "space-1 fs-32 text-start";
+        h2.textContent = new_.title;
+        
+        const p1 = document.createElement('p');
+        p1.className = "fs-18 lh-18 space-1 text-start mx-0";
+        p1.textContent = new_.description;
+        
+        const div2 = document.createElement('div');
+        div2.className = 'd-flex justify-content-start'
+
+        const a = document.createElement('a');
+        a.className = "btn btn-outline-dark space-1 fs-18 lh-18 text-start";
+        a.href = new_.link;
+        a.textContent = "更多閱讀";
+        
+        div.appendChild(view);
+        div.appendChild(h2);
+        div.appendChild(p1);
+        div.appendChild(div2);
+        div2.appendChild(a);
+        
+        fragment.appendChild(div);
+    });
+    
+    newsListElement.innerHTML = '';
+    newsListElement.appendChild(fragment);
+
+    const swiper = new Swiper('.swiper', {
+        slidesPerView: 2.5,
+        spaceBetween: 30,
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        pagination: {
+            el: '.swiper-pagination',
+            dynamicBullets: true,
+            clickable: true
+        }
+    });
+
+    return swiper;
+}
+
+carouselElement && renderCarouselElement();
+gridGalleryElement && renderGalleryElement();
+galleryGridTextElement && renderGalleryGridText();
+newsListElement && renderNewList();
+
+

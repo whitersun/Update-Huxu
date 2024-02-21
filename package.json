@@ -5,24 +5,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "admin",
-    "theme"
-  ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "auto-prefixer": "^0.4.2",
-    "css-loader": "^3.2.0",
-    "fibers": "^4.0.1",
-    "mini-css-extract-plugin": "^0.8.0",
-    "node-sass": "^4.12.0",
-    "postcss-loader": "^3.0.0",
-    "sass": "^1.23.0",
-    "sass-loader": "^8.0.0",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9",
-    "webpack-dev-server": "^3.8.2"
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "gsap": "^3.12.5",
+    "jquery": "^3.7.1",
+    "swiper": "^11.0.6"
   }
 }
